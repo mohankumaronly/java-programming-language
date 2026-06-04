@@ -1,0 +1,14 @@
+1. Encapsulation:
+
+Encapsulation is the process of hiding an object's internal data and restricting direct access from external classes.Without encapsulation, any external class can directly alter a variable, which can corrupt the object's state or introduce bugs. To protect this data, we apply the private access modifier to our class variables.To provide controlled access, we expose public getter and setter methods. This allows us to intercept any attempts to change the data and apply validation logic ensuring the data can only be modified in a safe, controlled manner.
+
+Without Encapsulation: 
+Another class can write account.balance = -5000;. This breaks your business rules because a balance shouldn't arbitrarily become negative.With Encapsulation: The balance is private. The other class must use account.setBalance(-5000);. Inside your setter, you can write an if statement to reject negative numbers, protecting your system's data integrity.
+
+example: 
+    banking example code - refer the Encapsulation.java file in oops folder
+
+2. abstraction:
+
+
+

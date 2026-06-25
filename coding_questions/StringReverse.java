@@ -5,12 +5,9 @@ import java.util.Scanner;
 class StringReverse {
     public static void main(String[] aStrings) {
         Scanner scanner = new Scanner(System.in);
-        // int number = scanner.nextInt();
         String input1 = scanner.nextLine();
         String input2 = scanner.nextLine();
         anagram(input1,input2);
-        // System.out.println(isPrime(number));
-        // printFebonacciSeries(number);
         scanner.close();
     }
 
